@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "allowJs": true
+  },
+
+  "includes": ["./src/*"],
+
+  "exlcude": ["./node_module"]
+}
