@@ -26,6 +26,8 @@ const getInfo = (config:SquareConfig):Square => {
     return {...initConfig};
 }
 
+getInfo({color:'red', width: 30});
+
 // 接口和只读属性
 interface config {
     readonly x: string,
